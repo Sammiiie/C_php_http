@@ -1,0 +1,330 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make version 3.79.1, by Richard Stallman and Roland McGrath.
+# Built for Windows32
+# Copyright (C) 1988, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 2000
+# 	Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# Report bugs to <bug-make@gnu.org>.
+
+ 
+
+# Make data base, printed on Wed Aug 24 22:08:11 2022
+
+# Variables
+
+# environment
+LC_ALL = C
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+NODE_ENV = "C:\Program Files\nodejs"
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+# environment
+PROMPT = $P$G
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+LOGONSERVER = \\SAMUEL
+# automatic
+@F = $(notdir $@)
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+USERNAME = Ejiga Samuel
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+SUFFIXES := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+NUMBER_OF_PROCESSORS = 2
+# environment
+OS = Windows_NT
+# environment
+HOMEPATH = \Users\Ejiga Samuel
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+CURDIR := c:/work/HTTP
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_PID = 10956
+# automatic
+%F = $(notdir $%)
+# environment
+TMP = C:\Users\EJIGAS~1\AppData\Local\Temp
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERDOMAIN_ROAMINGPROFILE = SAMUEL
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# default
+SHELL := sh.exe
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+LOCALAPPDATA = C:\Users\Ejiga Samuel\AppData\Local
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# default
+MAKE_VERSION := 3.79.1
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+MAKELEVEL := 0
+# environment
+HOMEDRIVE = C:
+# environment
+Path = C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\PHP7;C:\Program Files\Microsoft VS Code\bin;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Symfony;C:\Program  
+Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\msys64\mingw64\bin;C:\curl\usr\bin\curl.exe;C:\MinGW\bin;C:\MinGW\mingw32\bin;C:\msys64\mingw64\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\cURL\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Program Files\Java\jdk1.8.0_112\bin;c:\Program Files (x86)\GtkSharp\2.12\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Users\Ejiga Samuel\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Users\Ejiga Samuel\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Ejiga Samuel\AppData\Local\Programs\Python\Python37\;C:\Users\Ejiga Samuel\AppData\Local\Microsoft\WindowsApps;C:\Users\Ejiga Samuel\AppData\Local\Yarn\bin;C:\Users\Ejiga Samuel\AppData\Local\GitHubDesktop\bin;C:\Users\Ejiga Samuel\AppData\Roaming\npm\;C:\Users\Ejiga Samuel\AppData\Roaming\npm\;C:\Users\Ejiga Samuel\AppData\Roaming\Composer\vendor\bin;C:\Users\Ejiga Samuel\AppData\Local\Microsoft\WindowsApps;C:\PHP7;C:\xampp\php;C:\Users\Ejiga Samuel\AppData\Roaming\npm;C:\tools\dart-sdk\bin;C:\Users\Ejiga Samuel\AppData\Roaming\Pub\Cache\bin;C:\Users\Ejiga Samuel\Documents\flutter\bin;C:\gradle\bin;C:\tools\bin;C:\gnuwin32\bin;C:\Program Files\Git\mingw64\bin\;
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Ejiga Samuel\AppData\Roaming\Code\CachedData\6d9b74a70ca9c7733b29f0456fd8195364076dda
+# environment
+USERDOMAIN = SAMUEL
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -Rrqp
+# environment
+C_EM64T_REDIST11 = C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+SESSIONNAME = Console
+# environment
+ONEDRIVE = C:\Users\Ejiga Samuel\OneDrive
+# environment
+ONEDRIVECONSUMER = C:\Users\Ejiga Samuel\OneDrive
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10956_PNAJWYZFRMVYDNQD
+# environment
+ANDROID_HOME = C:\Users\Ejiga Samuel\Downloads\Android\tools
+# environment
+COMPUTERNAME = SAMUEL
+# environment
+CHOCOLATEYTOOLSLOCATION = C:\tools
+# environment
+LANG = C
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+TEMP = C:\Users\EJIGAS~1\AppData\Local\Temp
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+USERPROFILE = C:\Users\Ejiga Samuel
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+VSCODE_CWD = C:\Program Files\Microsoft VS Code
+# environment
+APPDATA = C:\Users\Ejiga Samuel\AppData\Roaming
+# automatic
+?F = $(notdir $?)
+# environment
+PROCESSOR_REVISION = 4c04
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# automatic
+<F = $(notdir $<)
+# environment
+PSMODULEPATH = C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\PowerShell\Modules\
+# environment
+PUBLIC = C:\Users\Public
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132716059294391195
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+SYSTEMDRIVE = C:
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+*F = $(notdir $*)
+# automatic
+^F = $(notdir $^)
+# environment
+WINDIR = C:\WINDOWS
+# default
+MAKECMDGOALS := all
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\c5d36305b7d5a7b4dbe918aef0f3eb9d-1.70.1-main-sock
+# default
+MAKEFILES := 
+# default
+MAKE_COMMAND := make.exe
+# environment
+PATH = C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\PHP7;C:\Program Files\Microsoft VS Code\bin;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Symfony;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\msys64\mingw64\bin;C:\curl\usr\bin\curl.exe;C:\MinGW\bin;C:\MinGW\mingw32\bin;C:\msys64\mingw64\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\cURL\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Program Files\Java\jdk1.8.0_112\bin;c:\Program Files (x86)\GtkSharp\2.12\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Users\Ejiga Samuel\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Users\Ejiga Samuel\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Ejiga Samuel\AppData\Local\Programs\Python\Python37\;C:\Users\Ejiga Samuel\AppData\Local\Microsoft\WindowsApps;C:\Users\Ejiga Samuel\AppData\Local\Yarn\bin;C:\Users\Ejiga Samuel\AppData\Local\GitHubDesktop\bin;C:\Users\Ejiga Samuel\AppData\Roaming\npm\;C:\Users\Ejiga Samuel\AppData\Roaming\npm\;C:\Users\Ejiga Samuel\AppData\Roaming\Composer\vendor\bin;C:\Users\Ejiga Samuel\AppData\Local\Microsoft\WindowsApps;C:\PHP7;C:\xampp\php;C:\Users\Ejiga Samuel\AppData\Roaming\npm;C:\tools\dart-sdk\bin;C:\Users\Ejiga Samuel\AppData\Roaming\Pub\Cache\bin;C:\Users\Ejiga Samuel\Documents\flutter\bin;C:\gradle\bin;C:\tools\bin;C:\gnuwin32\bin;C:\Program Files\Git\mingw64\bin\;
+# environment
+GTK_BASEPATH = c:\Program Files (x86)\GtkSharp\2.12\
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 76 Stepping 4, GenuineIntel
+# environment
+JAVA_HOME = C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSTOOLS = C:\tools
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# 91 variables in 523 hash buckets.
+# average of 0.2 variables per bucket, max 2 in one bucket.
+
+# Directories
+
+# C:\Python38\Scripts\ (key C:/Python38/Scripts/, mtime 1599006339): could not be opened.
+# c:\Program Files (x86)\GtkSharp\2.12\bin (key c:/Program Files (x86)/GtkSharp/2.12/bin, mtime 1512005578): 58 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1632296533): 8 files, no impossibilities.
+# C:\Users\Ejiga Samuel\AppData\Local\Programs\Python\Python37\Scripts\ (key C:/Users/Ejiga Samuel/AppData/Local/Programs/Python/Python37/Scripts/, mtime 1535711755): could not be opened.
+# C:\Program Files\PuTTY\ (key C:/Program Files/PuTTY/, mtime 1609765943): could not be opened.
+# C:\Users\Ejiga Samuel\AppData\Local\Microsoft\WindowsApps (key C:/Users/Ejiga Samuel/AppData/Local/Microsoft/WindowsApps, mtime 1661022605): 17 files, no impossibilities.
+# C:\ProgramData\ComposerSetup\bin (key C:/ProgramData/ComposerSetup/bin, mtime 1643905112): 5 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1660568378): 125 files, no impossibilities.
+# C:\gradle\bin (key C:/gradle/bin, mtime 318207600): 4 files, no impossibilities.
+# C:\tools\bin (key C:/tools/bin, mtime 1661030444): 49 files, no impossibilities.
+# C:\Program Files\Microsoft VS Code\bin (key C:/Program Files/Microsoft VS Code/bin, mtime 1660545008): 4 files, no impossibilities.
+# C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1660259601): 169 files, no impossibilities.
+# C:\Strawberry\c\bin (key C:/Strawberry/c/bin, mtime 1661175608): 115 files, no impossibilities.
+# C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64 (key C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/bin/Intel64, mtime 1511007457): 14 files, no impossibilities.
+# C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin (key C:/Program Files/AdoptOpenJDK/jdk-11.0.10.9-hotspot/bin, mtime 1614776668): 128 files, no impossibilities.
+# C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\ (key C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET Web Pages/v1.0/, mtime 1525795508): could not be opened.
+# C:\Program Files\Microsoft\Web Platform Installer\ (key C:/Program Files/Microsoft/Web Platform Installer/, mtime 1518515245): could not be opened.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1660517017): 56 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/, mtime 1640002394): could not be opened.
+# C:\PHP7 (key C:/PHP7, mtime 1600592916): 40 files, no impossibilities.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1599004945): could not be opened.
+# C:\tools\dart-sdk\bin (key C:/tools/dart-sdk/bin, mtime 1624450650): 15 files, no impossibilities.
+# C:\Program Files\Git\mingw64\bin\ (key C:/Program Files/Git/mingw64/bin/, mtime 1632296533): could not be opened.
+# C:\Users\Ejiga Samuel\AppData\Roaming\Pub\Cache\bin: could not be stat'd.
+# C:\curl\usr\bin\curl.exe: could not be stat'd.
+# C:\Python38\ (key C:/Python38/, mtime 1599006304): could not be opened.
+# C:\Program Files\cURL\bin (key C:/Program Files/cURL/bin, mtime 1661334291): 6 files, no impossibilities.
+# C:\xampp\php (key C:/xampp/php, mtime 1596406005): 64 files, no impossibilities.
+# C:\Users\Ejiga Samuel\AppData\Local\Programs\Python\Python37\ (key C:/Users/Ejiga Samuel/AppData/Local/Programs/Python/Python37/, mtime 1535711707): could not be opened.
+# C:\Strawberry\perl\site\bin (key C:/Strawberry/perl/site/bin, mtime 1661175580): 2 files, no impossibilities.
+# C:\Program Files\nodejs (key C:/Program Files/nodejs, mtime 1599004945): 11 files, no impossibilities.
+# . (key c:/work/HTTP, mtime 1661375010): 7 files, no impossibilities.
+# C:\gnuwin32\bin (key C:/gnuwin32/bin, mtime 1520846009): 1232 files, no impossibilities.
+# C:\ProgramData\Oracle\Java\javapath (key C:/ProgramData/Oracle/Java/javapath, mtime 1550011069): 5 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1661022715): could not be opened.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1606857399): 5 files, no impossibilities.
+# C:\Users\Ejiga Samuel\AppData\Local\GitHubDesktop\bin (key C:/Users/Ejiga Samuel/AppData/Local/GitHubDesktop/bin, mtime 1571829494): 4 files, no impossibilities.
+# C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ (key C:/Program Files (x86)/Microsoft SQL Server/130/Tools/Binn/, mtime 1640002118): could not be opened.
+# C:\Strawberry\perl\bin (key C:/Strawberry/perl/bin, mtime 1661175772): 184 files, no impossibilities.
+# C:\Users\Ejiga Samuel\AppData\Roaming\nvm: could not be stat'd.
+# C:\Program Files\Microsoft SQL Server\110\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/110/Tools/Binn/, mtime 1565095715): could not be opened.
+# C:\Users\Ejiga Samuel\AppData\Roaming\npm (key C:/Users/Ejiga Samuel/AppData/Roaming/npm, mtime 1610137812): 29 files, no impossibilities.
+# C:\msys64\mingw64\bin (key C:/msys64/mingw64/bin, mtime 1660522752): 210 files, no impossibilities.
+# C:\ProgramData\chocolatey\bin (key C:/ProgramData/chocolatey/bin, mtime 1661333224): 23 files, no impossibilities.
+# C:\Users\Ejiga Samuel\AppData\Roaming\npm\ (key C:/Users/Ejiga Samuel/AppData/Roaming/npm/, mtime 1610137812): could not be opened.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1602966833): could not be opened.
+# C:\MinGW\mingw32\bin (key C:/MinGW/mingw32/bin, mtime 1660516945): 13 files, no impossibilities.
+# C:\Users\Ejiga Samuel\Documents\flutter\bin (key C:/Users/Ejiga Samuel/Documents/flutter/bin, mtime 1625178494): 9 files, no impossibilities.
+# C:\Users\Ejiga Samuel\AppData\Local\Yarn\bin (key C:/Users/Ejiga Samuel/AppData/Local/Yarn/bin, mtime 1546645286): 2 files, no impossibilities.
+# C:\Program Files\Java\jdk1.8.0_112\bin (key C:/Program Files/Java/jdk1.8.0_112/bin, mtime 1518515243): 58 files, no impossibilities.
+# C:\Users\Ejiga Samuel\AppData\Roaming\Composer\vendor\bin (key C:/Users/Ejiga Samuel/AppData/Roaming/Composer/vendor/bin, mtime 1595856987): 4 files, no impossibilities.
+# C:\Program Files (x86)\Yarn\bin\ (key C:/Program Files (x86)/Yarn/bin/, mtime 1546639226): could not be opened.
+# C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
+# C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, mtime 1640002123): could not be opened.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1661264657): 3240 files, no impossibilities.
+# C:\Program Files\Symfony (key C:/Program Files/Symfony, mtime 1588429138): 5 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\130\DTS\Binn\ (key C:/Program Files/Microsoft SQL Server/130/DTS/Binn/, mtime 1640002397): could not be opened.
+
+# 5920 files, no impossibilities in 57 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Pattern-specific variable values
+
+# No pattern-specific variable values.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-24 22:07:55
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ph7: ph7.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 2):
+	cc -o ph7 ph7.c examples/ph7_intro.c -W -Wunused -Wall -I. -Ofast 
+	
+
+# Not a target:
+ph7.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# 6 files in 1007 hash buckets.
+# average 0.006 files per bucket, max 1 files in one bucket.
+
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# Finished Make data ba 
+make.exe: *** No rule to make target `all'.  Stop.
+
+se on Wed Aug 24 22:08:11 2022
+
+ 

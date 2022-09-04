@@ -1,0 +1,6 @@
+make.exe --dry-run --keep-going --print-directory
+make.exe: *** No rule to make target `ph7.c', needed by `ph7'.
+
+make.exe: Entering directory `c:/work/HTTP'
+make.exe: Leaving directory `c:/work/HTTP'
+ 
