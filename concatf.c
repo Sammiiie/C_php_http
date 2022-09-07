@@ -27,7 +27,7 @@ int vscprintf(const char *format, va_list ap)
  * GNU-C-compatible compilers implement these with the same names, thus we
  * don't have to do anything
  */
-#ifdef _MSC_VER
+// #ifdef _MSC_VER
 int vasprintf(char **strp, const char *format, va_list ap)
 {
     int len = vscprintf(format, ap);
@@ -44,7 +44,7 @@ int vasprintf(char **strp, const char *format, va_list ap)
     *strp = str;
     return retval;
 }
-#endif
+// #endif
 int concatf(char **strp, const char *format, ...)
 {
     va_list ap;
