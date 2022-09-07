@@ -44,7 +44,7 @@ int vasprintf(char **strp, const char *format, va_list ap)
     *strp = str;
     return retval;
 }
-
+#endif
 int concatf(char **strp, const char *format, ...)
 {
     va_list ap;
@@ -53,4 +53,4 @@ int concatf(char **strp, const char *format, ...)
     va_end(ap);
     return retval;
 }
-#endif
+

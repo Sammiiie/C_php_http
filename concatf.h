@@ -8,6 +8,9 @@
 #include <stdlib.h> /* needed for malloc, free */
 #include <stdarg.h> /* needed for va_*         */
 
+// #ifdef _MSC_VER
+int vasprintf(char **strp, const char *format, va_list ap);
 int concatf(char **strp, const char *format, ...);
+// #endif
 
 #endif // CONCATF_H
