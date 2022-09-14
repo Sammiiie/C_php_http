@@ -2,8 +2,9 @@
 #include <stdlib.h>
 
 void remove_word(char * text, char * word);
+int consume(char *url, char *body);
 
-int main(int argc, char *argv[]) {
+int consume(char *url, char *body) {
      char cmdbuf[80];
      char * text         = (char*)malloc(sizeof(char) * 100);
 //     char * wordToRemove[80] = (char*)malloc(sizeof(char) * 800);
@@ -14,8 +15,8 @@ int main(int argc, char *argv[]) {
     strcpy(wordToRemove, "Bye");
     strcpy(wordToRemove2, "Bye");
      char i, j;
-     char *url = "check-pos-get-banks"; 
-     char *body = "{sn : 210210933}";
+     url = "check-pos-get-banks"; 
+     body = "{sn : 210210933}";
      snprintf (cmdbuf, sizeof(cmdbuf), "runme.exe %s %s >> tmp.txt", url, body);
      int retcod = system(cmdbuf);
      FILE *fp = fopen("tmp.txt", "wb+");
